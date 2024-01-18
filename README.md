@@ -23,3 +23,4 @@ PHP Exercise for creating REST API. Goal of this exercise is to create API for m
 1. Clone repository
 2. Run `docker compose up -d`
 3. Run `docker compose exec php bash`
+4. Run `composer install`
