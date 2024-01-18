@@ -1,0 +1,113 @@
+{
+    "name": "danaketh/exercise_rest-api",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Daniel Tlach",
+            "email": "daniel@tlach.cz",
+            "homepage": "https://daniel.tlach.cz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-ctype": "*",
+        "ext-iconv": "*",
+        "jms/serializer-bundle": "^5.4",
+        "phpdocumentor/reflection-docblock": "^5.3",
+        "phpstan/phpdoc-parser": "^1.24",
+        "symfony/console": "7.0.*",
+        "symfony/dotenv": "7.0.*",
+        "symfony/flex": "^2",
+        "symfony/framework-bundle": "7.0.*",
+        "symfony/property-access": "7.0.*",
+        "symfony/property-info": "7.0.*",
+        "symfony/runtime": "7.0.*",
+        "symfony/serializer": "7.0.*",
+        "symfony/validator": "7.0.*",
+        "symfony/yaml": "7.0.*"
+    },
+    "require-dev": {
+        "phpstan/extension-installer": "^1.3",
+        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan-deprecation-rules": "^1.1",
+        "phpstan/phpstan-phpunit": "^1.3",
+        "phpstan/phpstan-strict-rules": "^1.5",
+        "phpstan/phpstan-symfony": "^1.3",
+        "phpunit/phpunit": "^9.5",
+        "roave/security-advisories": "dev-latest",
+        "slevomat/coding-standard": "^8.14",
+        "spaze/phpstan-disallowed-calls": "^2.16",
+        "symfony/browser-kit": "7.0.*",
+        "symfony/css-selector": "7.0.*",
+        "symfony/phpunit-bridge": "^7.0",
+        "symplify/easy-coding-standard": "^12.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "symfony/flex": true,
+            "symfony/runtime": true,
+            "phpstan/extension-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "v1\\": "src/v1/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "replace": {
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-iconv": "*",
+        "symfony/polyfill-php72": "*",
+        "symfony/polyfill-php73": "*",
+        "symfony/polyfill-php74": "*",
+        "symfony/polyfill-php80": "*",
+        "symfony/polyfill-php81": "*",
+        "symfony/polyfill-php82": "*"
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        },
+        "post-install-cmd": [
+            "@auto-scripts"
+        ],
+        "post-update-cmd": [
+            "@auto-scripts"
+        ],
+        "phpstan": [
+            "php -d memory_limit=-1 vendor/bin/phpstan analyse --config=phpstan.neon.dist"
+        ],
+        "ecs": [
+            "php -d memory_limit=-1 vendor/bin/ecs check"
+        ],
+        "ecs-fix": [
+            "php -d memory_limit=-1 vendor/bin/ecs check --fix"
+        ],
+        "run-tests": [
+            "php -d memory_limit=-1 vendor/bin/phpunit --configuration phpunit.xml.dist"
+        ]
+    },
+    "conflict": {
+        "symfony/symfony": "*"
+    },
+    "extra": {
+        "symfony": {
+            "allow-contrib": true,
+            "require": "7.0.*"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  php:
+    image: exercise_rest-api_php
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    container_name: exercise_rest-api_php
+    tty: true
+    volumes:
+      - ./:/var/www/html
+
+  nginx:
+    image: nginx:latest
+    container_name: exercise_rest-api__nginx
+    volumes:
+      - ./:/var/www/html
+      #- ./.docker/nginx/app.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - "127.0.0.1:80:80"
+    links:
+      - php
