@@ -40,7 +40,7 @@
         "phpunit/phpunit": "^9.5",
         "roave/security-advisories": "dev-latest",
         "slevomat/coding-standard": "^8.14",
-        "spaze/phpstan-disallowed-calls": "^2.16",
+        "spaze/phpstan-disallowed-calls": "^3.4",
         "symfony/browser-kit": "7.0.*",
         "symfony/css-selector": "7.0.*",
         "symfony/phpunit-bridge": "^7.0",
