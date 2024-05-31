@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ee00e534eb8f72c728cc7e920da91b0",
+    "content-hash": "d6be5f67f63e5736ede3eba4948d82d3",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2830,16 +2830,16 @@
         },
         {
             "name": "symfony/runtime",
-            "version": "v7.0.0",
+            "version": "v7.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/runtime.git",
-                "reference": "65a4e69b1cdcee4f4f7a619a41d4b7ec79e85406"
+                "reference": "e120730ef206b31bb5521b1a2389c058adbba9c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/runtime/zipball/65a4e69b1cdcee4f4f7a619a41d4b7ec79e85406",
-                "reference": "65a4e69b1cdcee4f4f7a619a41d4b7ec79e85406",
+                "url": "https://api.github.com/repos/symfony/runtime/zipball/e120730ef206b31bb5521b1a2389c058adbba9c7",
+                "reference": "e120730ef206b31bb5521b1a2389c058adbba9c7",
                 "shasum": ""
             },
             "require": {
@@ -2889,7 +2889,7 @@
                 "runtime"
             ],
             "support": {
-                "source": "https://github.com/symfony/runtime/tree/v7.0.0"
+                "source": "https://github.com/symfony/runtime/tree/v7.1.0"
             },
             "funding": [
                 {
@@ -2905,7 +2905,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-20T16:35:23+00:00"
+            "time": "2024-04-18T09:29:19+00:00"
         },
         {
             "name": "symfony/serializer",
