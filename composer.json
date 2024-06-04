@@ -28,7 +28,7 @@
         "symfony/runtime": "7.0.*",
         "symfony/serializer": "7.0.*",
         "symfony/validator": "7.0.*",
-        "symfony/yaml": "7.0.*"
+        "symfony/yaml": "7.1.*"
     },
     "require-dev": {
         "phpstan/extension-installer": "^1.3",
