@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6512c521e47006ba0a30550914a9643",
+    "content-hash": "5d1f66eb7570b6f8ecbf92694ea95a05",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -4134,16 +4134,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.11.7",
+            "version": "1.12.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "52d2bbfdcae7f895915629e4694e9497d0f8e28d"
+                "reference": "e0bb5cb78545aae631220735aa706eac633a6be9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/52d2bbfdcae7f895915629e4694e9497d0f8e28d",
-                "reference": "52d2bbfdcae7f895915629e4694e9497d0f8e28d",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e0bb5cb78545aae631220735aa706eac633a6be9",
+                "reference": "e0bb5cb78545aae631220735aa706eac633a6be9",
                 "shasum": ""
             },
             "require": {
@@ -4188,7 +4188,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-06T11:17:41+00:00"
+            "time": "2025-01-21T14:50:05+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -6555,30 +6555,30 @@
         },
         {
             "name": "spaze/phpstan-disallowed-calls",
-            "version": "v2.16.1",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spaze/phpstan-disallowed-calls.git",
-                "reference": "1500f90ff6a705009731cc14e50d4faf2d202bf3"
+                "reference": "eb3841ed93768e5754970e6da03d93d3a06c1e6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spaze/phpstan-disallowed-calls/zipball/1500f90ff6a705009731cc14e50d4faf2d202bf3",
-                "reference": "1500f90ff6a705009731cc14e50d4faf2d202bf3",
+                "url": "https://api.github.com/repos/spaze/phpstan-disallowed-calls/zipball/eb3841ed93768e5754970e6da03d93d3a06c1e6a",
+                "reference": "eb3841ed93768e5754970e6da03d93d3a06c1e6a",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2 || ^8.0",
-                "phpstan/phpstan": "^1.10"
+                "php": "^7.4 || ^8.0",
+                "phpstan/phpstan": "^1.12.6 || ^2.0"
             },
             "require-dev": {
-                "nette/neon": "^3.2",
-                "nikic/php-parser": "^4.13",
+                "nette/neon": "^3.3.1",
+                "nikic/php-parser": "^4.13 || ^5.0",
                 "php-parallel-lint/php-console-highlighter": "^1.0",
                 "php-parallel-lint/php-parallel-lint": "^1.2",
-                "phpunit/phpunit": "^8.5 || ^10.1",
-                "spaze/coding-standard": "^1.7",
-                "symfony/polyfill-php80": "^1.27"
+                "phpstan/phpstan-deprecation-rules": "^1.2 || ^2.0",
+                "phpunit/phpunit": "^8.5.14 || ^10.1 || ^11.0",
+                "spaze/coding-standard": "^1.7"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -6610,7 +6610,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spaze/phpstan-disallowed-calls/issues",
-                "source": "https://github.com/spaze/phpstan-disallowed-calls/tree/v2.16.1"
+                "source": "https://github.com/spaze/phpstan-disallowed-calls/tree/v4.2.1"
             },
             "funding": [
                 {
@@ -6618,7 +6618,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-28T15:29:27+00:00"
+            "time": "2025-01-23T17:42:09+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
