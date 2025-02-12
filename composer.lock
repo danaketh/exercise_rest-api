@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40a23facd801b8eeb3b7a4af2d043e8b",
+    "content-hash": "815f6dd9b5783aacbdedbdd47dad821b",
     "packages": [
         {
             "name": "doctrine/deprecations",
@@ -1867,16 +1867,16 @@
         },
         {
             "name": "symfony/framework-bundle",
-            "version": "v7.0.10",
+            "version": "v7.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
-                "reference": "07a37173aace78420ccaf5eceaf4a79c7dfab375"
+                "reference": "d37a43dd0b2079605fcab3056dac71934f06dc0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/07a37173aace78420ccaf5eceaf4a79c7dfab375",
-                "reference": "07a37173aace78420ccaf5eceaf4a79c7dfab375",
+                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/d37a43dd0b2079605fcab3056dac71934f06dc0f",
+                "reference": "d37a43dd0b2079605fcab3056dac71934f06dc0f",
                 "shasum": ""
             },
             "require": {
@@ -1885,14 +1885,14 @@
                 "php": ">=8.2",
                 "symfony/cache": "^6.4|^7.0",
                 "symfony/config": "^6.4|^7.0",
-                "symfony/dependency-injection": "^6.4|^7.0",
+                "symfony/dependency-injection": "^7.2",
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/error-handler": "^6.4|^7.0",
                 "symfony/event-dispatcher": "^6.4|^7.0",
-                "symfony/filesystem": "^6.4|^7.0",
+                "symfony/filesystem": "^7.1",
                 "symfony/finder": "^6.4|^7.0",
                 "symfony/http-foundation": "^6.4|^7.0",
-                "symfony/http-kernel": "^6.4|^7.0",
+                "symfony/http-kernel": "^7.2",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/routing": "^6.4|^7.0"
             },
@@ -1914,16 +1914,18 @@
                 "symfony/mime": "<6.4",
                 "symfony/property-access": "<6.4",
                 "symfony/property-info": "<6.4",
+                "symfony/runtime": "<6.4.13|>=7.0,<7.1.6",
                 "symfony/scheduler": "<6.4.4|>=7.0.0,<7.0.4",
                 "symfony/security-core": "<6.4",
-                "symfony/security-csrf": "<6.4",
-                "symfony/serializer": "<6.4",
+                "symfony/security-csrf": "<7.2",
+                "symfony/serializer": "<7.1",
                 "symfony/stopwatch": "<6.4",
                 "symfony/translation": "<6.4",
                 "symfony/twig-bridge": "<6.4",
                 "symfony/twig-bundle": "<6.4",
                 "symfony/validator": "<6.4",
                 "symfony/web-profiler-bundle": "<6.4",
+                "symfony/webhook": "<7.2",
                 "symfony/workflow": "<6.4"
             },
             "require-dev": {
@@ -1955,17 +1957,19 @@
                 "symfony/scheduler": "^6.4.4|^7.0.4",
                 "symfony/security-bundle": "^6.4|^7.0",
                 "symfony/semaphore": "^6.4|^7.0",
-                "symfony/serializer": "^6.4|^7.0",
+                "symfony/serializer": "^7.1",
                 "symfony/stopwatch": "^6.4|^7.0",
                 "symfony/string": "^6.4|^7.0",
                 "symfony/translation": "^6.4|^7.0",
                 "symfony/twig-bundle": "^6.4|^7.0",
+                "symfony/type-info": "^7.1",
                 "symfony/uid": "^6.4|^7.0",
                 "symfony/validator": "^6.4|^7.0",
                 "symfony/web-link": "^6.4|^7.0",
+                "symfony/webhook": "^7.2",
                 "symfony/workflow": "^6.4|^7.0",
                 "symfony/yaml": "^6.4|^7.0",
-                "twig/twig": "^3.0.4"
+                "twig/twig": "^3.12"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -1993,7 +1997,7 @@
             "description": "Provides a tight integration between Symfony components and the Symfony full-stack framework",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/framework-bundle/tree/v7.0.10"
+                "source": "https://github.com/symfony/framework-bundle/tree/v7.2.3"
             },
             "funding": [
                 {
@@ -2009,7 +2013,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-26T13:24:26+00:00"
+            "time": "2025-01-29T07:13:55+00:00"
         },
         {
             "name": "symfony/http-foundation",
