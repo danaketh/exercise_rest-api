@@ -4083,16 +4083,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.12.17",
+            "version": "1.12.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "7027b3b0270bf392de0cfba12825979768d728bf"
+                "reference": "29201e7a743a6ab36f91394eab51889a82631428"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/7027b3b0270bf392de0cfba12825979768d728bf",
-                "reference": "7027b3b0270bf392de0cfba12825979768d728bf",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/29201e7a743a6ab36f91394eab51889a82631428",
+                "reference": "29201e7a743a6ab36f91394eab51889a82631428",
                 "shasum": ""
             },
             "require": {
@@ -4137,7 +4137,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-07T15:01:57+00:00"
+            "time": "2025-03-23T14:57:32+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -6504,16 +6504,16 @@
         },
         {
             "name": "spaze/phpstan-disallowed-calls",
-            "version": "v4.3.1",
+            "version": "v4.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spaze/phpstan-disallowed-calls.git",
-                "reference": "50cedf9c10df5fd61b804ab3e0dc5ebe7420df3c"
+                "reference": "1c5e6996bd75a1460f5e2683fc4294665b37bee2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spaze/phpstan-disallowed-calls/zipball/50cedf9c10df5fd61b804ab3e0dc5ebe7420df3c",
-                "reference": "50cedf9c10df5fd61b804ab3e0dc5ebe7420df3c",
+                "url": "https://api.github.com/repos/spaze/phpstan-disallowed-calls/zipball/1c5e6996bd75a1460f5e2683fc4294665b37bee2",
+                "reference": "1c5e6996bd75a1460f5e2683fc4294665b37bee2",
                 "shasum": ""
             },
             "require": {
@@ -6522,12 +6522,12 @@
             },
             "require-dev": {
                 "nette/neon": "^3.3.1",
-                "nikic/php-parser": "^4.13 || ^5.0",
+                "nikic/php-parser": "^4.13.2 || ^5.0",
                 "php-parallel-lint/php-console-highlighter": "^1.0",
                 "php-parallel-lint/php-parallel-lint": "^1.2",
                 "phpstan/phpstan-deprecation-rules": "^1.2 || ^2.0",
-                "phpunit/phpunit": "^8.5.14 || ^10.1 || ^11.0",
-                "spaze/coding-standard": "^1.7"
+                "phpunit/phpunit": "^8.5.14 || ^10.1 || ^11.0 || ^12.0",
+                "spaze/coding-standard": "^1.8"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -6553,13 +6553,13 @@
                     "homepage": "https://www.michalspacek.cz"
                 }
             ],
-            "description": "PHPStan rules to detect disallowed method & function calls, constant, namespace & superglobal usages",
+            "description": "PHPStan rules to detect disallowed method & function calls, constant, namespace, attribute & superglobal usages, with powerful rules to re-allow a call or a usage in places where it should be allowed.",
             "keywords": [
                 "static analysis"
             ],
             "support": {
                 "issues": "https://github.com/spaze/phpstan-disallowed-calls/issues",
-                "source": "https://github.com/spaze/phpstan-disallowed-calls/tree/v4.3.1"
+                "source": "https://github.com/spaze/phpstan-disallowed-calls/tree/v4.5.0"
             },
             "funding": [
                 {
@@ -6567,7 +6567,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-12T01:51:55+00:00"
+            "time": "2025-04-10T19:01:43+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
